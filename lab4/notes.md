@@ -8,7 +8,7 @@ The `.git` directory appeared when I ran `git init`. It contains Git's internal 
 
 ## Question 3
 
-[Put the approximate number of files/folders you saw in your ORIGINAL `git status` here.] Some of the files were existing project files, and the `.venv` files were not something I wrote and should not be tracked.
+Git was offering to track approximately 1,100 files and folders. Most of these were files inside `.venv/`, which were not something I wrote and should not be tracked.
 
 ## Question 4
 
@@ -24,7 +24,7 @@ After creating `.gitignore`, the files inside `.venv/`, along with other ignored
 
 ## Question 7
 
-[Use the actual output from your `git commit` command here.] Git created a commit and reported the number of files changed.
+Git created the commit with the message "Initial commit". It reported that 3 files changed, with 162 insertions.
 
 ## Question 8
 
