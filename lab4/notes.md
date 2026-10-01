@@ -29,3 +29,27 @@ After creating `.gitignore`, the files inside `.venv/`, along with other ignored
 ## Question 8
 
 The first seven characters of the commit hash are a shortened version of the commit's unique SHA-1 identifier. They can be used to refer to and identify that specific commit.
+
+## Question 9
+
+The four steps are edit, stage, commit, and repeat. First I make a change to a file, then use `git add` to stage it, `git commit` to save it in the repository history, and then repeat the process for future changes.
+
+## Question 10
+
+`README.md` has a special name because GitHub automatically displays it on the repository's front page. It acts as an introduction to the project and gives readers information about the repository and its contents.
+
+## Question 11
+
+`gh auth login` authenticated my GitHub account through the browser and stored the authentication credentials locally. This means Git can use those credentials when pushing to GitHub instead of asking me for a password each time.
+
+## Question 12
+
+The `README.md` file is shown on the GitHub repository's front page because GitHub automatically renders a README as the repository's introduction. It displays the Markdown as formatted text rather than showing the raw Markdown syntax.
+
+## Question 13
+
+No, pushing did not change my local Git history. `git push` copied my existing commits to GitHub, while the commits and their hashes remained the same locally.
+
+## Question 14
+
+A private repository exists on GitHub but its contents can only be accessed by people who have permission. A repository that does not exist on GitHub cannot be accessed there at all, because there is no remote repository containing the project.
